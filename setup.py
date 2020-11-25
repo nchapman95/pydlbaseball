@@ -10,7 +10,7 @@ setup(name='pydlbaseball',
       license='MIT',
       install_requires=[
           'matplotlib',
-      ]
+      ],
       packages=['pydlbaseball'],
       zip_safe=False)
 
