@@ -1,5 +1,7 @@
 import itertools
 import matplotlib.pyplot as plt
+from .feature_selection import iv_woe
+
 
 def plot_confusion_matrix(cm, classes,
                           normalize=False,
