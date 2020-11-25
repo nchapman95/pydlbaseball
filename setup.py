@@ -8,6 +8,9 @@ setup(name='pydlbaseball',
       author='Nick Chapman',
       author_email='nchapman958@gmail.com',
       license='MIT',
+      install_requires=[
+          'matplotlib',
+      ]
       packages=['pydlbaseball'],
       zip_safe=False)
 
