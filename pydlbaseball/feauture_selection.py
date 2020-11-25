@@ -1,3 +1,5 @@
+import pandas as pd
+
 def iv_woe(data, target, bins=10, show_woe=False):
     
     #Empty Dataframe
